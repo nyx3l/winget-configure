@@ -36,14 +36,6 @@ properties:
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Microsoft Office
-        allowPrerelease: true
-      settings:
-        id: Microsoft.Office
-        source: winget
-
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
         description: Install latest release of Git
         allowPrerelease: true
       settings:
@@ -74,4 +66,20 @@ properties:
         id: Python.Python.3.13
         source: winget
         
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: iCloud
+        allowPrerelease: true
+      settings:
+        id: 9pktq5699m62
+        source: msstore
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Malwarebytes Anti-Malware
+        allowPrerelease: true
+      settings:
+        id: Malwarebytes.Malwarebytes
+        source: winget
+
   configurationVersion: 0.2.0
