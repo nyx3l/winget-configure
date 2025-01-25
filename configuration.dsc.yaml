@@ -82,4 +82,36 @@ properties:
         id: Malwarebytes.Malwarebytes
         source: winget
 
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: OBS Studio
+        allowPrerelease: true
+      settings:
+        id: OBSProject.OBSStudio
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: PowerToys
+        allowPrerelease: true
+      settings:
+        id: Microsoft.PowerToys
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Sysinternals Suite (Better version of task manager)
+        allowPrerelease: true
+      settings:
+        id: Microsoft.Sysinternals
+        source: winget
+        
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Roblox (For the kids)
+        allowPrerelease: true
+      settings:
+        id: Roblox.Roblox
+        source: winget
+
   configurationVersion: 0.2.0
