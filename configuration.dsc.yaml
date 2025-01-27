@@ -113,5 +113,13 @@ properties:
       settings:
         id: Roblox.Roblox
         source: winget
+       
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Grammarly
+        allowPrerelease: true
+      settings:
+        id: Grammarly.Grammarly
+        source: winget
 
   configurationVersion: 0.2.0
