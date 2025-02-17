@@ -122,4 +122,12 @@ properties:
         id: Grammarly.Grammarly
         source: winget
 
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Windows Gaming Services (for Xbox App)
+        allowPrerelease: true
+      settings:
+        id: 9MWPM2CQNLHN
+        source: msstore
+
   configurationVersion: 0.2.0
